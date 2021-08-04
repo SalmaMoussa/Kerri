@@ -1,0 +1,521 @@
+/* _______General_______ */
+.main-color{
+color: #e65f78;
+}
+.main-bgColor{
+    background-color: #e65f78;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.sub-title{
+    max-width: 500px;
+    margin: auto;
+}
+.html{
+    scroll-behavior: smooth ;
+}
+
+/* ____Home____ */
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #e65f78;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#000 ;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #e65f78;
+}
+
+#home{
+    min-height: 100vh;
+    background-image: url(../imags/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#home .layer{
+    background-color: rgba(0, 0, 0, .7);
+}
+h1{
+    font-size: 54px;
+   
+}
+#home h1::after{
+    content: "";
+    animation: typing 15s linear infinite;
+}
+@keyframes typing{
+    0%{
+        content: " A|";
+    }
+    1%{
+        content: " A |";
+    }
+    2%{
+        content: " A G|";
+    }
+    3%{
+        content: " A Gr|";
+    }
+    4%{
+        content: " A Gra|";
+    }
+    5%{
+        content: " A Grap|";
+    }
+    6%{
+        content: " A Graph|";
+    }
+    7%{
+        content: " A Graphi|";
+    }
+    8%{
+        content: " A Graphic|";
+    }
+    9%{
+        content: " A Graphic |";
+    }
+    10%{
+        content: " A Graphic D|";
+    }
+    11%{
+        content: " A Graphic De|";
+    }
+    12%{
+        content: " A Graphic Des|";
+    }
+    13%{
+       content: " A Geraphic Desi|";
+    }
+    14%{
+        content: " A Graphic Desig|";
+    }
+    15%{
+        content: " A Graphic Design|";
+    }
+    16%{
+        content: " A Graphic Designe|";
+    }
+    17%{
+        content: " A Graphic Designer|";
+    }
+    18%{
+        content: " A Graphic Designer.|";
+    }
+    19%{
+        content: " A Graphic Designer.|";
+    }
+    20%{
+        content: " A Graphic Designer.|";
+    }
+    21%{
+        content: " A Graphic Designer.|";
+    }
+    22%{
+        content: " A Graphic Designer.|";
+    }
+    23%{
+        content: " A Graphic Designer.|";
+    }
+    24%{
+        content: " A Graphic Designer|";
+    }
+    25%{
+        content: " A Graphic Designe|";
+    }
+    26%{
+        content: " A Graphic Design|";
+    }
+    27%{
+        content: " A Graphic Desig|";
+    }
+    28%{
+        content: " A Graphic Desi|";
+    }
+    29%{
+        content: " A Graphic Des|";
+    }
+    30%{
+        content: " A Graphic Des|";
+    }
+    31%{
+        content: " A Graphic De|";
+    }
+    32%{
+        content: " A Graphic D";
+    }
+    33%{
+        content: " A Graphic |";
+    }
+    34%{
+        content: " A Graphic|";
+    }
+    35%{
+        content: " A Graphi|";
+    }
+    36%{
+        content: " A Graph|";
+    }
+    37%{
+        content: " A Grap";
+    }
+    38%{
+        content: " A Gra|";
+    }
+    39%{
+        content: " A Gr|";
+    }
+    40%{
+        content: " A G|";
+    }
+    41%{
+        content: " A |";
+    }
+    42%{
+        content: " A|";
+    }
+    43%{
+        content: " A |";
+    }
+    44%{
+        content: " A P|";
+    }
+    45%{
+        content: " A Ph|";
+    }
+    46%{
+        content: " A Pho|";
+    }
+    47%{
+        content: " A Phot|";
+    }
+    48%{
+        content: " A Photo|";
+    }
+    48%{
+        content: " A Photog|";
+    }
+    49%{
+        content: " A Photogr|";
+    }
+    50%{
+        content: " A Photogra|";
+    }
+    51%{
+        content: " A Photograp|";
+    }
+    52%{
+        content: " A Photograph|";
+    }
+    53%{
+        content: " A Photographe|";
+    }
+    54%{
+        content: " A Photographer|";
+    }
+    55%{
+        content: " A Photographer.|";
+    }
+    56%{
+        content: " A Photographer.|";
+    }
+    57%{
+        content: " A Photographer.|";
+    }
+    58%{
+        content: " A Photographer.|";
+    }
+    59%{
+        content: " A Photographer.|";
+    }
+    60%{
+        content: " A Photographer|";
+    }
+    61%{
+        content: " A Photographe|";
+    }
+    62%{
+        content: " A Photograp|";
+    }
+    63%{
+        content: " A Photogra|";
+    }
+    64%{
+        content: " A Photogr|";
+    }
+    65%{
+        content: " A Photog|";
+    }
+    66%{
+        content: " A Photo|";
+    }
+    67%{
+        content: " A Phot|";
+    }
+    68%{
+        content: " A Pho|";
+    }
+    69%{
+        content: " A Ph|";
+    }
+    70%{
+        content: " A P|";
+    }
+    71%{
+        content: " A |";
+    }
+    72%{
+        content: " A|";
+    }
+    73%{
+        content: " A |";
+    }
+    74%{
+        content: " A K|";
+    }
+    75%{
+        content: " A Ke|";
+    }
+    76%{
+        content: " A Ker|";
+    }
+    77%{
+        content: " A Kerr|";
+    }
+    78%{
+        content: " A Kerri|";
+    }
+    79%{
+        content: " A Kerri D|";
+    }
+    80%{
+        content: " A Kerri De|";
+    }
+    81%{
+        content: " A Kerri Deo|";
+    }
+    83%{
+        content: " A Kerri Deo.|";
+    }
+    84%{
+        content: " A Kerri Deo.|";
+    }
+    85%{
+        content: " A Kerri Deo.|";
+    }
+  
+
+
+   
+
+}
+#home p{
+    color: rgba(255, 255, 255, 0.75);
+    margin: 30px 0;
+}
+#home button{
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+#home button:hover{
+    background-color: white;
+    color: black !important;
+}
+#home .scroll{
+    width: 30px;
+    height: 45px;
+    border: solid 2px white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translatex(-50%);
+    animation: scroll 3s infinite linear;
+}
+#home .scroll::after{
+    content: "";
+    width: 3px;
+    height: 10px;
+    position: absolute;
+    background-color: white;
+    bottom: 10px;
+    transform: translatex(-50%);
+}
+@keyframes scroll{
+    0%{
+        bottom: 50px;
+    }
+    10%{
+        bottom: 100px;
+    }
+    20%{
+        bottom: 50px;
+    }
+    30%{
+        bottom: 80px;
+    }
+    40%{
+        bottom: 50px;
+    }
+    50%{
+        bottom: 70px;
+    }
+    60%{
+        bottom: 50px;
+    }
+    70%{
+        bottom: 60px;
+    }
+    80%{
+        bottom: 50px;
+    }
+    90%{
+        bottom: 50px;
+    }
+    100%{
+        bottom: 50px;
+    }
+}
+
+#home .setting{
+    top: 20%;
+    background-color:#2b2424;
+    padding: 10px;
+    border-radius: 5px;
+}
+#home .setting i{
+    font-size: 20px;
+}
+#home .up-icon{
+    bottom: 30px;
+    right: 40px;
+    font-size :30 px ;
+    background-color: #e65f78;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   z-index: 99999;
+}
+
+
+/* ______About_____ */
+#about ul{
+    list-style-type: none;
+}
+#about i{
+    color:black;
+    font-size: 40px;
+    padding: 5px;
+}
+#about i:hover{
+    color: #e65f78;
+}
+
+
+/* ____Sevices____*/
+ #services .services-item{
+    border: 1px solid #e8e8e8;
+    
+}
+#services .services-item i{
+    font-size: 50px;
+}
+#services .services-line{
+    width: 15%;
+    height: 2px;
+    transition: 1s;
+      
+}
+#services .services-item:hover .services-line{
+    width: 20%;
+}
+/* ____freelancer_____ */
+#freelancer button{
+    padding: 15px 30px;
+}
+
+/* ____Client____*/
+#client .client_review{
+    width: 75%;
+    margin: auto;
+}
+#client .client-item i{
+    font-size: 40px;
+}
+.carousel-indicators .active{
+    color: #e65f78;
+    opacity: 1;
+    width: 20px;
+}
+.carousel-indicators li{
+    background-color: #e65f78;
+    color: #e65f78;
+    width: 12px;
+    height: 6px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    opacity: .5;
+   
+}
+
+/* ___Contact us____ */
+#contact .contact-item i{
+    font-size: 50px;
+}
+
+/* ___Our Works____ */
+.nav-pills .nav-link.active{
+    background-color: #e65f78;
+    border-radius: 30px;
+}
+.nav-pills .nav-link{
+    color: black;
+}
+#works .work-layer{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 0;
+    transition: .5s;
+}
+
+#works .work-layer .layer-content{
+    transform: translateY(150%);
+    transition: .5s;
+}
+#works .work-item:hover .work-layer{
+    opacity: 1;
+}
+#works .work-item:hover .layer-content{
+    transform: translateY(0);
+}
+#works .work-item:hover img{
+    transform: scale(1.1);
+}
+#works .work-item img{
+    transition: .5s;
+}
+#works .work-item{
+    overflow: hidden;
+}
+
+/* ___Footer___ */
+#footer{
+background:#2b2424;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer i{
+    padding: 10px;
+    font-size: 30px;
+    color: #6c757d!important;
+    margin-top: 50px;
+}
